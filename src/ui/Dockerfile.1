@@ -6,8 +6,8 @@ WORKDIR $APP_HOME
 
 COPY Gemfile* $APP_HOME/
 
-RUN apk add --no-cache ruby ruby-dev build-base \ 
-ruby-bundler \
+RUN apk add --no-cache ruby=2.4.5-r0 ruby-dev=2.4.5-r0 build-base=0.5-r0 \ 
+ruby-bundler=1.16.1-r0 \
 && bundle install && apk del build-base ruby-dev \
 ruby-bundler
 
