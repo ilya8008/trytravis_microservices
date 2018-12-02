@@ -59,10 +59,10 @@ docker-4 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya
 - Посмотрел конфигурацию bridge-интерфейсов, правила iptables.
 - Создал файл docker-compose.yml, проверил работу приложения.
 - Изменил docker-compose под работу с 2-мя bridge-сетями и алиасами, параметризовал файл docker-compose и записал параметры в файл .env
-- Базовое имя проекта можно задать с помощью переменной окружения ```COMPOSE_PROJECT_NAME``.
+- Базовое имя проекта можно задать с помощью переменной окружения ```COMPOSE_PROJECT_NAME```.
 - Создал файл docker-compose.override.yml, с помощью которого можно запустить puma с указанными параметрами и изменять код приложения без сборки образа. Для этого нужно скопировать файлы на docker-host:
 ```
-docker-machine scp post-py/post_app.py docker-host:/home/docker-user/
-docker-machine scp comment/comment_app.rb docker-host:/home/docker-user/
-docker-machine scp ui/ui_app.rb docker-host:/home/docker-user/
+docker-machine scp -r post-py docker-host:/home/docker-user
+docker-machine scp -r comment docker-host:/home/docker-user
+docker-machine scp -r ui docker-host:/home/docker-user
 ```

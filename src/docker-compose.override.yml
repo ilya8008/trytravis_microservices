@@ -3,11 +3,11 @@ services:
   ui:
     command: puma --debug -w 2
     volumes:
-      - '/home/docker-user/ui_app.rb:/app/ui_app.rb'
+      - '/home/docker-user/ui:/app'
   post:
     volumes:
-      - '/home/docker-user/post_app.py:/app/post_app.py'
+      - '/home/docker-user/post-py:/app'
   comment:
     command: puma --debug -w 2
     volumes:
-       - '/home/docker-user/comment_app.rb:/app/comment_app.rb'
+       - '/home/docker-user/comment:/app'
