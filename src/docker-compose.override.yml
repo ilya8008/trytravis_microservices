@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  ui:
+    command: puma --debug -w 2
+    volumes:
+      - '/home/docker-user/ui_app.rb:/app/ui_app.rb'
+  post:
+    volumes:
+      - '/home/docker-user/post_app.py:/app/post_app.py'
+  comment:
+    command: puma --debug -w 2
+    volumes:
+       - '/home/docker-user/comment_app.rb:/app/comment_app.rb'
