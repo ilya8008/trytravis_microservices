@@ -78,3 +78,5 @@ docker-machine scp -r ui docker-host:/home/docker-user
 - Запустил и зарегистрировал runner.
 - Добавил тестирование приложения reddit в pipeline.
 - Настроил интеграцию Pipeline с Slack (https://devops-team-otus.slack.com/messages/CDAN4QFFF/details/).
+- Т.к. я использовал docker-machine для создания ВМ и установки Gitlab CI, я написал скрипт на bash для создания runners, который нужно выполнить на docker-host.
+  
