@@ -77,4 +77,4 @@ docker-machine scp -r ui docker-host:/home/docker-user
 - Определил CI/CD Pipeline.
 - Запустил и зарегистрировал runner.
 - Добавил тестирование приложения reddit в pipeline.
-- Настроил интеграцию Pipeline с Slack.
+- Настроил интеграцию Pipeline с Slack (https://devops-team-otus.slack.com/messages/CDAN4QFFF/details/).
