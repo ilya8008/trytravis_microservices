@@ -3,13 +3,9 @@ ilya8008 microservices repository
 
 Build status:
 
-docker-1 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=docker-1)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
+gitlab-ci-1 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=gitlab-ci-1)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
 
-docker-2 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=docker-2)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
-
-docker-3 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=docker-3)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
-
-docker-4 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=docker-4)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
+gitlab-ci-2 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=gitlab-ci-2)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
 
 ## Домашнее задание 12
 
