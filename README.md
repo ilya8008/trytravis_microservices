@@ -79,4 +79,11 @@ docker-machine scp -r ui docker-host:/home/docker-user
 - Добавил тестирование приложения reddit в pipeline.
 - Настроил интеграцию Pipeline с Slack (https://devops-team-otus.slack.com/messages/CDAN4QFFF/details/).
 - Т.к. я использовал docker-machine для создания ВМ и установки Gitlab CI, я написал скрипт на bash для создания runners, который нужно выполнить на docker-host.
-  
+
+## Домашнее задание 17
+
+### Сделано:
+
+- Создал dev-окружение.
+- Определил этапы stage и production c запуском с кнопки и добавил ограничение по тэгу.
+- Определил динамические окружения.
