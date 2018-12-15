@@ -3,9 +3,7 @@ ilya8008 microservices repository
 
 Build status:
 
-gitlab-ci-1 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=gitlab-ci-1)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
-
-gitlab-ci-2 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=gitlab-ci-2)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
+monitoring-1 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=monitoring-1)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
 
 ## Домашнее задание 12
 
@@ -83,3 +81,19 @@ docker-machine scp -r ui docker-host:/home/docker-user
 - Создал dev-окружение.
 - Определил этапы stage и production c запуском с кнопки и добавил ограничение по тэгу.
 - Определил динамические окружения.
+
+## Домашнее задание 18
+
+### Сделано:
+
+- Запустил систему мониторинга Prometheus с использованием готового образа с DockerHub.
+- Ознакомился с web-интерфейсом Prometheus.
+- Настроил конфигурацию в файле prometheus.yml и создал образ prometheus.
+- Собрал образы микросервисов.
+- Добавил сервис prometheus в docker-compose.yml, добавил секцию networks с настройками сети.
+- Запустил сервисы и проверил их работу.
+- Проверил работу healthcheck для сервиса post и связанных с ним сервисов.
+- Добавил сервис node-exporter в docker-compose.yml с указанием ннастроек сети.
+- Добавил job в prometheus.yml
+- Проверил работу мониторинга node.
+- Запушил созданные образы на DockerHub: https://cloud.docker.com/u/ilya8008/repository/list
