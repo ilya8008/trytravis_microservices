@@ -65,6 +65,28 @@ services:
       back_net:
         aliases:
           - node-exporter
+  blackbox-exporter:
+    image: prom/blackbox-exporter:latest
+    user: root
+    ports: 
+      - '9115:9115'
+    networks:
+      front_net:
+        aliases:
+          - blackbox-exporter
+      back_net:
+        aliases:
+          - blackbox-exporter
+  mongodb-exporter:
+    image: ssalaues/mongodb-exporter:latest
+    user: root
+    command:
+      - '-mongodb.uri=mongodb://post_db:27017'
+      - '-web.listen-address=mongodb-exporter:9104'
+    networks:
+      back_net:
+        aliases:
+          - mongodb-exporter
 volumes:
   post_db:
   prometheus_data:
