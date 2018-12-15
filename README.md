@@ -96,4 +96,8 @@ docker-machine scp -r ui docker-host:/home/docker-user
 - Добавил сервис node-exporter в docker-compose.yml с указанием ннастроек сети.
 - Добавил job в prometheus.yml
 - Проверил работу мониторинга node.
-- Запушил созданные образы на DockerHub: https://cloud.docker.com/u/ilya8008/repository/list
+- Запушил созданные образы на DockerHub: 
+- https://cloud.docker.com/repository/docker/ilya8008/prometheus
+- https://cloud.docker.com/repository/docker/ilya8008/post
+- https://cloud.docker.com/repository/docker/ilya8008/ui
+- https://cloud.docker.com/repository/docker/ilya8008/comment
