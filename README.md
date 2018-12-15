@@ -101,3 +101,9 @@ docker-machine scp -r ui docker-host:/home/docker-user
 - https://cloud.docker.com/repository/docker/ilya8008/post
 - https://cloud.docker.com/repository/docker/ilya8008/ui
 - https://cloud.docker.com/repository/docker/ilya8008/comment
+- Добавил мониторинг MongoDB (образ из репозитория ssalaues/mongodb-exporter), проверил его работу.
+- Добавил мониторинг сервисов comment, post, ui с помощью blackbox_exporter, проверил его работу.
+- Написал Makefile, с помощью которого можно билдить и пушить на DockerHub все образы (по умолчанию) или конкретный образ, указанный в параметрах запуска make, например (username - обязательный параметр):
+```
+make prometheus username=docker_login_name
+```
