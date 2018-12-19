@@ -3,7 +3,7 @@ ilya8008 microservices repository
 
 Build status:
 
-monitoring-1 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=monitoring-1)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
+monitoring-2 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=monitoring-2)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
 
 ## Домашнее задание 12
 
