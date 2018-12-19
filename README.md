@@ -107,3 +107,23 @@ docker-machine scp -r ui docker-host:/home/docker-user
 ```
 make prometheus username=docker_login_name
 ```
+
+## Домашнее задание 19
+
+### Сделано:
+
+- Вынес из файла docker-compose.yml в docker-compose-monitoring.yml описание мониторинга.
+- Добавил cAdvisor в конфиг docker и prometheus, проверил работу.
+- Добавил grafana в конфиг docker.
+- Через веб-интерфейс grafana импортировал dashboard.
+- Построил раличные графики метрик.
+- Построил график с вычислением 95 перецентиля.
+- Построил графики бизнес логики.
+- Собрал образ alertmanager.
+- Проверил работу алерта и уведомление в канал Slack. 
+- Запушил созданные образы на DockerHub: 
+- https://cloud.docker.com/repository/docker/ilya8008/prometheus
+- https://cloud.docker.com/repository/docker/ilya8008/post
+- https://cloud.docker.com/repository/docker/ilya8008/ui
+- https://cloud.docker.com/repository/docker/ilya8008/comment
+- https://cloud.docker.com/repository/docker/ilya8008/alertmanager
