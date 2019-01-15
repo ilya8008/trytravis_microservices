@@ -3,7 +3,7 @@ ilya8008 microservices repository
 
 Build status:
 
-logging-1 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=logging-1)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
+kubernetes-1 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=kubernetes-1)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
 
 ## Домашнее задание 12
 
@@ -139,3 +139,7 @@ make prometheus username=docker_login_name
 - Изучил работу фильтров со структурированнми логами.
 - Настроил парсинг неструктурированных логов с помощью регулярных выражений.
 - Настроил парсинг неструктурированных логов с помощью grok-шаблонов.
+
+## Домашнее задание 20
+
+### Сделано:
