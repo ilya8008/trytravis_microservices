@@ -3,7 +3,7 @@ ilya8008 microservices repository
 
 Build status:
 
-kubernetes-1 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=kubernetes-1)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
+kubernetes-3 branch: [![Build Status](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices.svg?branch=kubernetes-3)](https://travis-ci.com/Otus-DevOps-2018-09/ilya8008_microservices)
 
 ## Домашнее задание 12
 
